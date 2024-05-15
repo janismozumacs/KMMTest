@@ -8,3 +8,7 @@ fun startSDK(analytics: Analytics): SDKHandle {
         breedAnalytics = analyticsHandle.breedAnalytics
     )
 }
+
+fun getElectricityObject(): Pair<String, Double> {
+    return ("Rēzeknes iela", 45.6)
+}
