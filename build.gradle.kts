@@ -15,8 +15,8 @@ allprojects {
 }
 
 subprojects {
-    val GROUP: String by project
-    val LIBRARY_VERSION: String by project
+    val GROUP = "come.test.kmm"
+    val LIBRARY_VERSION = 1.0
 
     group = GROUP
     version = LIBRARY_VERSION
